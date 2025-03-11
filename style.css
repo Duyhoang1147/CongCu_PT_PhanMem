@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Phần tiêu đề */
+h1 {
+    color: #333;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+/* Ảnh đại diện */
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #555;
+    margin-bottom: 20px;
+}
+
+/* Container chứa thông tin cá nhân */
+.thongtin {
+    background: #fff;
+    padding: 10px;
+    margin: 10px auto;
+    width: 60%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+}
+
+.thongtin b {
+    color: #555;
+}
+
+/* Hover để tạo hiệu ứng */
+.thongtin:hover {
+    background: #e6e6e6;
+    transition: 0.3s ease-in-out;
+}
